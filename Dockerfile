@@ -13,3 +13,7 @@ RUN R -e "install.packages(c('data.table'),dependencies=TRUE, repos='cran.rstudi
 RUN R -e "install.packages(c('leaflet'),dependencies=TRUE, repos='cran.rstudio.com/')"
 
 RUN R -e "install.packages(c('RMySQL'),dependencies=TRUE, repos='cran.rstudio.com/')"
+
+RUN R -e "install.packages(c('shinydashboard'),dependencies=TRUE, repos='cran.rstudio.com/')"
+
+RUN R -e "install.packages(c('logging'),dependencies=TRUE, repos='cran.rstudio.com/')"
